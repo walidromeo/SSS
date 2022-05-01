@@ -1,0 +1,29 @@
+# SECRET CODE OF JWT
+jwt:
+     SSS: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c'
+
+server:
+  port: 9000
+
+spring:
+  datasource:
+    #Data source config
+    # Datasource URL
+    url: jdbc:mysql://localhost:3306/sss
+    # Datasource User
+    username: root
+    # Datasource password
+    password:
+
+  jpa:
+    # JPA Show SQL
+    show-sql: true
+    # JPA Hibernate AUTO DDL (for changes on entities to be automatically made in DB)
+    hibernate:
+       ddl-auto: create
+
+    properties:
+      # JPA DB Platform
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
